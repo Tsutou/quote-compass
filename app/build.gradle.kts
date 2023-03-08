@@ -87,6 +87,9 @@ dependencies {
     implementation(Dep.OkHttp.okHttp)
     implementation(Dep.OkHttp.logging)
 
+    implementation(Dep.Retrofit.retrofit)
+    implementation(Dep.Retrofit.moshiConverter)
+
     implementation(Dep.Coil.compose)
     implementation(Dep.Coil.gif)
 

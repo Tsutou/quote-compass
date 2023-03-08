@@ -70,6 +70,12 @@ object Dep {
         const val cache = "com.apollographql.apollo3:apollo-normalized-cache:$version"
     }
 
+    object Retrofit {
+        private const val version = "2.9.0"
+        const val retrofit = "com.squareup.retrofit2:retrofit:$version"
+        const val moshiConverter = "com.squareup.retrofit2:converter-moshi:$version"
+    }
+
     object OkHttp {
         private const val okhttp_version = "4.9.3"
         const val okHttp = "com.squareup.okhttp3:okhttp:$okhttp_version"
