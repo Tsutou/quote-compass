@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "quote-compass"
-include ':app'
+rootProject.name = "githubClient"
+include(":app")
